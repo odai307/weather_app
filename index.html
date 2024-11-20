@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1>Weather App</h1>
+    <div class="input-container">
+        <input type="text" id="city-input" placeholder="Enter City" data-search-input autofocus>
+        <button id="search-btn" data-search-btn>Search</button>
+        <button id="toggle-unit" data-toggle-unit-btn>Switch to °F</button>
+    </div>
+    <div class="weather-container">
+        <div class="weather-info">
+            <h2 id="location" data-location></h2>
+            <p id="temperature" data-temperature></p>
+            <p id="description" data-description></p>
+        </div>
+        <img id="weather-gif" alt="Weather GIF">
+    </div>
+</body>
+</html>
